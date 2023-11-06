@@ -1,0 +1,305 @@
+<!-------------
+ Sait: Arend Avto
+ Date: 06.11.23
+ Version: 0.1.0.23 
+------------->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Arend Avto</title>
+    <meta name="keywords" content="аренда авто | машины | авто аренда  "/>
+    <meta name="author"   content="Medvedev Pavel" />
+    <meta name="robots"  content="noindex">
+    <meta name="address" content="ул.Нквыдуманная 7"/>
+    <meta name="description" content="Аренда автомобилей в вашеи городе по выгодным ценам"/>
+    <link rel="icon" href="img/CarFav.ico" sizes="5x5" type="image/x-icon"> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body >
+<header class="header">
+		<div class="header__conteiner conteiner">
+			<a class="header__logo-link" href="#">
+				<img class="header__logo " src="img/car-wheel.svg" alt="Логотип сайта">
+				<img class="header__logo_second header__logo_second--active" src="img/car-wheel-2.svg" alt="Активный логотип">
+			</a>
+			<div class="bx bx-menu" id="header__menu-icons"></div>
+			<nav class="nav nav--defauld" >
+				<ul class="conteiner__nav" >
+					<li><a class="nav__link" href="#home">Главная</a></li>
+					<li><a class="nav__link" href="#ride">Приемущества</a></li>
+					<li><a class="nav__link" href="#serves">Аренда</a></li>
+					<li><a class="nav__link" href="#about">Комнапия</a></li>
+					<li><a class="nav__link" href="#reviews">Отзывы</a></li>
+					<li><a class="nav__link" href="#questions">Вопросы</a></li>
+				</ul>
+			</nav>
+			<div class="header__authorization">
+				<input class="authorization__user" type="submit"  value="Войти">
+			</div>
+		</div>
+</header>
+<section id="home" class="home">
+		<div class="home__conteiner conteiner">
+			<div class="home__item">
+				<div class="home__block">
+					<div class="home__content"  data-aos="zoom-in" data-aos-duration="2000">
+						<h1 class="content__title">
+							<span class="content__accent">Аренда</span> машин по выгодным ценам 
+						</h1>
+						<p class="content__text">Арендовать машину с нами легко в один клик!</p>
+					</div >
+				</div>
+				<div class="homer__block">
+					<div class="home__img" data-aos="fade-right" data-aos-duration="2000">
+						<img  src="img/1612851795_171-p-krasnaya-mashina-bez-fona-251.jpg" alt="главное фото">
+					</div>
+				</div>
+			</div>
+			<div class="home__form" data-aos="fade-right"  data-aos-duration="1000">
+				<form method="GET" class="form__serch">
+					<div class="serch__box">
+						<span  class="serch__title">Город</span>
+						<input class="serch__inp" name="city" type="search" required placeholder="Выберите город">
+						<span  class="serch__error serch__error--city"></span>
+					</div>
+					<div class="serch__box">
+						<span  class="serch__title">Начала аренды</span>
+						<input class="serch__inp" name="arend-start"  required type="date">
+						<span  class="serch__error serch__error--date-start"></span>
+					</div>
+					<div class="serch__box">
+						<span  class="serch__title">Конец аренды</span>
+						<input class="serch__inp" name="arend-end" required type="date">
+						<span  class="serch__error serch__error--date-end"></span>
+					</div>
+					<div class="serch__box serch__box--btn">
+						<input class="serch__button" name="serch-arend" type="submit" value="Найти">
+					</div>
+				</form>
+			</div>
+			
+		</div>
+</section>
+<section id="ride" class="ride" >
+		<div class="conteiner__ride conteiner">
+			<div class="section__header header__section--ride"></div>
+			<div class="ride__wrapper"></div>
+		</div>
+</section>
+<section  id="serves" class="serves" >
+		<div class="section__header section__header--serves"></div>
+		<div class="serves__conteiner conteiner"></div>
+		<div class="serves__navigation">
+			<button class="serves__more">Показать ещё</button>
+		</div>
+</section>
+<section id="about" class="about"   >
+	<div class="conteiner__about conteiner" ></div>
+	<div  class="contact">
+		<div class="contact__icons-open">
+			<i class="bx bx-question-mark "></i>
+		</div>
+		<div class="contact__conteiner">
+			<i class="bx bx-right-arrow-alt contact__icons-close"></i>
+			<div class="contact__wrapper">
+				<h2 class="contect__title"></h2>
+				<div class="contact__list"></div>
+			</div>
+		</div> 
+	</div>
+</section>
+<section id="reviews" class="reviews" >
+	<div class="revirews__conteiner conteiner" data-aos="zoom-in-up">
+		<div class="section__header section__header--reviews"></div>
+		<div class="revirews__conteiner--wrapper">
+			<div class="swiper">
+				<div class="swiper-wrapper revirews__wrapper ">
+					<div class="reviews__block swiper-slide">
+						<div class="revies__block-header">
+							<div class="reviews__img">
+								<img src="img/rev3.jpg">
+							</div>
+							<h2>Анна</h2>
+							<div class="rewiews__stars">
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star-haif"></i>
+							</div>
+						</div>
+						<div class="rewiews__content">
+							<p class="rewiews__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore non placeat, corporis illum quia? Expedita necessitatibus rem praesentium eos enim veritatis. Alias, facilis ipsam culpa laudantium possimus fugiat deleniti molestias?</p>
+						</div>
+					</div>
+					<div class="reviews__block swiper-slide">
+						<div class="revies__block-header">
+							<div class="reviews__img">
+								<img src="img/rev3.jpg">
+							</div>
+							<h2>Анна</h2>
+							<div class="rewiews__stars">
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star-haif"></i>
+							</div>
+						</div>
+						<div class="rewiews__content">
+							<p class="rewiews__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore non placeat, corporis illum quia? Expedita necessitatibus rem praesentium eos enim veritatis. Alias, facilis ipsam culpa laudantium possimus fugiat deleniti molestias?</p>
+						</div>
+					</div>
+					<div class="reviews__block swiper-slide">
+						<div class="revies__block-header">
+							<div class="reviews__img">
+								<img src="img/rev3.jpg">
+							</div>
+							<h2>Анна</h2>
+							<div class="rewiews__stars">
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star-haif"></i>
+							</div>
+						</div>
+						<div class="rewiews__content">
+							<p class="rewiews__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore non placeat, corporis illum quia? Expedita necessitatibus rem praesentium eos enim veritatis. Alias, facilis ipsam culpa laudantium possimus fugiat deleniti molestias?</p>
+						</div>
+					</div>
+					<div class="reviews__block swiper-slide">
+						<div class="revies__block-header">
+							<div class="reviews__img">
+								<img src="img/rev3.jpg">
+							</div>
+							<h2>Анна</h2>
+							<div class="rewiews__stars">
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star"></i>
+								<i class="bx bxs-star-haif"></i>
+							</div>
+						</div>
+						<div class="rewiews__content">
+							<p class="rewiews__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore non placeat, corporis illum quia? Expedita necessitatibus rem praesentium eos enim veritatis. Alias, facilis ipsam culpa laudantium possimus fugiat deleniti molestias?</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination  rewiews__pagination"></div>
+			<div class="swiper-button-prev rewiews__btn"></div>
+			<div class="swiper-button-next rewiews__btn"></div>
+		</div>
+	</div>
+</section>
+<section id="questions" class="questions" >
+	<div class="questions__conteiner conteiner" data-aos="zoom-in-up">
+		<div class="section__header section__header--questions ">
+		</div>	
+		<div class="accordion"></div>
+	</div>
+</section>
+<section class="newsletter">
+	<div class="conteiner__newsletter conteiner" data-aos="zoom-in">
+		<h2 class="newsletter__title">Получайте уведомления</h2>
+		<form class="newsletter__box ">
+			<input  class="newsletter__input" type="text" required placeholder="Enter Your Email...">
+			<input class="newsletter__btn" type="submit"  value="Отправить">
+		</form>
+		<div class="newsletter__messeges"></div>
+	</div>
+</section>
+<section class="modal">
+	<div class="modal__conteiner">
+		<i class="bx bx-x modal__closed"></i>
+		<form class="modal__form_authorization">
+			<h2 class="modal__title">Вход</h2>
+			<div class="form__conteiner">
+				<div class="form__item">
+					<input class="form__item_input" type="text" name="login" required placeholder="Login">
+					<span  class="form__item_erorr form__item_erorr--login"></span>
+				</div>
+				<div class="form__item">
+					<input class="form__item_input" type="password" name="password"  placeholder="Password">
+					<span  class="form__item_erorr form__item_erorr--password"></span>
+				</div>
+				<input class="form__item_btn" name="authorization" type="submit" value="Войти">
+			</div>
+			<a class="authorization__btn" href="#">Создать аккаунт</a>
+		</form>
+		<form class="modal__form_registration  modal__form_registration--active ">
+			<h2  class="modal__title">Регистрация</h2>
+			<div class="form__conteiner">
+				<div class="form__item">
+					<input class="form__item_input" type="text" name="login-req"  required placeholder="Login">
+					<span  class="form__item_erorr form__item_erorr--login-req"></span> 
+				</div>
+				<div class="form__item">
+					<input class="form__item_input" type="email" name="email-req" required placeholder="Email">
+					<span  class="form__item_erorr form__item_erorr--email-req"></span> 
+				</div>
+				<div class="form__item">
+					<input class="form__item_input" type="password" required name="password-req" placeholder="Password">
+					<span  class="form__item_erorr form__item_erorr--password-req"></span> 
+				</div>
+				<input class="form__item_btn"  type="submit" name="registration" value="Создать">
+			</div>
+			<a class="registration__btn" href="#">Войти</a>
+		</form>
+	</div>
+</section>
+<section class="advertisement">
+	<div class="advertisement__conteiner" ></div>
+</section>
+<footer class="footer">
+	<div class="conteiner__footer conteiner">
+		<div class="footer__box">
+			<a class="footer__logo" href="#"><img src="img/car-wheel.svg" alt="car-wheel"></a>
+			<div class="footer__social">
+				<a  href="#"><img src="img/vk.svg" alt="vk"></a>
+				<a  href="#"><img src="img/telega.svg" alt="telega" ></a>
+				<a  href="#"><img src="img/email.svg" alt="gmail"></a>
+			</div>
+		</div>
+		<div class="footer__box">
+			<div class=" footer__wrapper">
+				<h3 class="footer__title">Сайт</h3>
+				<a  class="footer__link" href="#home">Главная</a>
+				<a  class="footer__link" href="#serves">Машины</a>
+				<a  class="footer__link" href="#questions">Отзывы</a>
+				<a  class="footer__link" href="#reviews">Вопросы</a>
+			</div>
+		</div>
+		<div class="footer__box">
+			<div class="footer__wrapper">
+				<h3 class="footer__title">Политика</h3>
+				<a  class="footer__link" href="#">Политиика компании</a>
+				<a  class="footer__link" href="#">Политика сайта</a>
+				<a  class="footer__link" href="#">Политика куки</a>	
+			</div>
+		</div>
+		<div class="footer__box">
+			<div class="footer__wrapper">
+				<h3 class="footer__title">Контакты</h3>
+				<p  class="footer__link" >Россия</p>
+				<p  class="footer__link" >Белорусь</p>
+				<p  class="footer__link" >Япония</p>
+				<p  class="footer__link">Казахстан</p>
+			</div>
+		</div>
+	</div>
+</footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="text/javascript" src="js/content.js"></script>
+<script type="text/javascript" src="js/swapper.js"></script>  
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
