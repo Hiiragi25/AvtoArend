@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-padding-top: 32px;
+	scroll-behavior: smooth;
+	text-decoration: none;
+    font-family: "Poppins",sans-serif;
+
+
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+html::-webkit-scrollbar {
+    display: block;
+    width: 10px;
+}
+html::-webkit-scrollbar-track {
+    background-color: var(--scrollBar-color);
+}
+    
+html::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+    background-color:var(--scroll-bg);
+   
+}
+li {
+	list-style-type: none;
+}
+input {
+	border: none;
+	cursor: pointer;
+}
+section {
+	padding-top: clamp(35px, 0.777rem + 5.49vw, 75px);
+
+}
+
+.conteiner {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+.none {
+	display: none !important;
+}
+.scroll{
+	transition:  all 0.2s linear;
+}
+.scroll--hidden {
+
+	overflow-y: hidden;
+	transition:  all 0.2s linear;
+}
+.section__header {
+	text-align: center;
+	padding:  0 10px;
+}
+.section__title {
+   font-size: clamp(1.25rem, 0.421rem + 4.15vw, 3.375rem);
+}
+.section__subtitle {
+	color: var(--section-color);
+	font-weight: 600;
+    text-transform: uppercase;
+}

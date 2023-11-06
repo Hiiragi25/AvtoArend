@@ -1,0 +1,170 @@
+:root {
+
+
+  /****** SCROLL ********/
+  --scroll-bg: #E32636;
+  --scrollBar-color: rgba(255,255,255,0.7);
+  /****** SECTION ************/
+  --section-color:#E32636;
+
+  /******** HEADER **********/
+  
+  --header-bg :#eeeff1;
+  --header-second: #E32636;
+
+  --header-btn-bg:#E32636;
+  --header-btn-bg-hover:#fff;
+
+  --header-btn-color:#fff;
+  --header-btn-solid:#fff;
+
+  --header-btn-color-hover:#000;
+  --header-btn-solid-hover:#000;
+  --header-btn-solid:#fff;
+
+  /******* NAV *********/
+  --nav-bg:#eeeff1;
+  --nav-color: #444;
+  --nav-color-second: #fff;
+  --nav-gradient-second:#E32636;
+  --nav-link-active-bg:#fff;
+
+
+  /******* HOME *********/
+  --home-text : #0000;
+  --home-text-accent:#E32636;
+
+  --home-form-shadow:rgb(0,0,0,0.3);
+  --home-form-bg:#fff;
+  --home-form-solid-inp:#000;
+  --home-from-solid-btn:#fff;
+  --home-form-solid-btn-hover: #000;
+  --home-form-error-text: #E32636;
+  --home-form-btn-volor-hover:#000;
+  --home-form-btn-solid-hover:#000;
+
+
+  /******* CONTACT *********/
+
+  --contact-bg:#E32636; 
+  --contact-bg-second:#fff;
+
+  --contact-text:#fff;
+  --contact-text-second:#000;
+
+  --contact-solid:#ffff;
+  --contact-solid-second:#000;
+
+  --contact-content-bg: #eeeff1;
+
+  /******* EIDE *********/
+
+  --ride-icons-bg : #eeeff1 ;
+  --ride-icons-color:#000;
+
+  --ride-icons-bg-hover: #E32636;
+  --ride-icons-color-hover:#fff;
+
+  /******* SERVES *********/
+
+  --serves-shadow: rgb(0,0,0,0.3);
+  --serves-icon-after: #000;
+  --serves-item-icons-bg:#E32636;
+  --serves-item-icons-color:#fff;
+
+  --serves-age-solid:#000;
+  --serves-accent-color:#333;
+  --serves-name-color: #E32636;
+  --serves-link-bg: #E32636;
+  --serves-link-color: #000 ;
+  --serves-link-solid: #000;
+
+  --serves-btn-bg: #fff;
+  --serves-btn-color: #000;
+  --serves-btn-solid: #000;
+
+  --serves-btn-bg-hover: #E32636;
+  --serves-btn-color-hover:  #ffff;
+
+  --serves-link-color:#fff;
+
+
+  /******* ABOUT*********/
+
+  --about-btn-bg:  #E32636;
+  --about-btn-color: #fff;
+
+  --about-btn-bg-hover:  #fff;
+  --about-btn-color-hover: #000;
+  --about-btn-soild-hover: #000;
+
+/******* REVIEWS *********/
+   --revires-shadow:rgb(0,0,0,0.2);
+   --revires-solid:#fff;
+
+   --revies-header-bg:#E32636;
+   --revies-header-color:#fff;
+   --rewiews-btn-bg: #E32636;
+   --rewiews-btn-color:#fff;
+   --rewiews-bullet-bg: #E32636;
+
+/******* QUESTIONS *********/
+  --questions-bg:#ffff;
+  --question-shadow:rgba(0,0,0,0.2);
+
+  --question-item-bg:#fff7f0;
+  --question-item-solid:#ffd6b3;
+
+  --question-trigger-bg:#E32636;
+  --question-trigger-color: #fff;
+  --question-trigger-text:#333;
+
+  --questions-text:#333;
+
+
+/************* NEWLETTER **************/
+
+   --newsletter-bg:#E32636;
+   --newsletter-title-color:#fff;
+   --newsletter-box-bg:#fff;
+
+    --newsletter-btn-bg:#E32636;
+    --newsletter-btn-color:#fff;
+    --newsletter-solid:#fff;
+
+    --newsletter-messeges-color:#fff;
+    --newsletter-messeges-icons-color:#fff;
+
+
+/************* MODAL **************/
+    
+    --modal-shadow:rgba(0, 0, 0, 0.5);
+    --modal-conteiner-bg: #fff7f0;
+
+    --modal-form-item-input-solid: #000;
+    --modal-form-item-error-color: #E32636;
+
+   --modal-form-item-btn-bg: #E32636;
+   --modal-form-item-btn-color: #fff;
+
+   --modal-form-item-btn-bg-hover: #fff;
+   --modal-form-item-btn-color-hover: #000;
+   --modal-form-item-btn-solid: #000:;
+
+
+/************* ADVERTISEMENT ***********/
+
+ --advertisement-bg: #fff7f0;
+
+ --advertisement-btn-bg: #E32636;
+ --advertisement-btn-color:#fff;
+
+ --advertisement-btn-bg-hover: #fff;
+ --advertisement-btn-color-hover:#000;
+
+ /************* FOOTER ***********/
+   --footer-link-color: #000;
+   --footer-link-color-hover:#E32636;
+
+
+};
