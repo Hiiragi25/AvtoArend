@@ -226,9 +226,13 @@
 
 }
 .serch__inp {
+	width: 100%;
 	padding: 10px 5px;
 	outline: none;
+	background: var(--home-form-inp-bg);
 	border-bottom: 1px solid var(--home-form-solid-inp);
+	
+
 }
 .serch__box--btn {
 	padding-top: 30px;
@@ -606,8 +610,6 @@
 }
 .accordion__item {
 	border-radius: 4px;
-	background: var(--question-item-bg);
-	border: 1px solid var(--question-item-solid);
 	transition: background-color .2s ease-in;
 	overflow: hidden;
 }
@@ -801,7 +803,7 @@
 .form__conteiner{
 	display: flex;
 	flex-direction: column;
-	gap:20px;
+	gap:10px;
 }
 .form__item {
 	display: flex;
