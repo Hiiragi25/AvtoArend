@@ -40,6 +40,7 @@
   --home-from-solid-btn:#fff;
   --home-form-solid-btn-hover: #000;
   --home-form-error-text: #E32636;
+  --home-form-inp-bg:#fff;
   --home-form-btn-volor-hover:#000;
   --home-form-btn-solid-hover:#000;
 
@@ -154,7 +155,7 @@
 
 /************* ADVERTISEMENT ***********/
 
- --advertisement-bg: #fff7f0;
+ --advertisement-bg: #fff;
 
  --advertisement-btn-bg: #E32636;
  --advertisement-btn-color:#fff;
