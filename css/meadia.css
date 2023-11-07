@@ -84,6 +84,9 @@
     @media(max-width: 600px){
 
     /********* RIDE ******/
+      .newsletter {
+        display: none;
+      }
       .ride__wrapper {
 
        grid-template-columns: 1fr !important ;
