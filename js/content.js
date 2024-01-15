@@ -373,7 +373,7 @@ function GetServes(SERVES){
                    <p class="serves__age">${SERVES.content[i].age}</p>
                    <h2 class="serves__cena">${SERVES.content[i].cena} | ${SERVES.content[i].month} <span class="serves__accent">/ в месяц </span></h2>
                    <h3 class="serves__name">${SERVES.content[i].name} </h3>
-                   <a href="#" class="serves__link">Rent Now</a>
+                   <a href="#" class="serves__link">Подробнее</a>
                  </div>
               </div>
       `;
