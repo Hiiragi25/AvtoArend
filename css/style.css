@@ -455,12 +455,13 @@
 	border-radius: 8px;
 	transition: background-color .2s ease-in;
 	margin-top: auto;
+	border: 1px solid var(--serves-link-bg);
 
 }
 .serves__link:hover{
 	transition: background-color .3s ease-in; 
 	background-color: var( --header-btn-bg-hover);
-	color: var(--serves-link-color) ;	
+	color: #000;	
 	border: 1px solid var(--serves-link-solid);
 
 
