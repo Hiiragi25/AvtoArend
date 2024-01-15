@@ -1,4 +1,5 @@
 
+
 const RIDE = {
 
    'section' : [
@@ -518,6 +519,24 @@ function GetAdvertisement(ADVERTISEMENT){
   `;
  advertisenentConteiner.insertAdjacentHTML('beforeend',advertisenentContent);
 }
+
+
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
 
 
 
