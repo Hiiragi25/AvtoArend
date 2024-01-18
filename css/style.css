@@ -912,6 +912,9 @@
 	width: 100%;
 	object-fit: cover;
 }
+.advertisement__title {
+	display: block;
+}
 
 /************** END ADVETISEMENT *************/
 
