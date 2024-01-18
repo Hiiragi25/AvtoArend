@@ -510,7 +510,7 @@ function GetAdvertisement(ADVERTISEMENT){
 
     <i class="bx bx-x advertisement__close"></i>
          <div class="advertisement__content">
-          <h2 class="advertisement__title">${ADVERTISEMENT[0].title}</h2>
+          <h2 class="advertisement__title--text">${ADVERTISEMENT[0].title}</h2>
       <div class="advertisement__block">
         <img class="advertisement__img" src="img/${ADVERTISEMENT[0].img}">
         </div>
