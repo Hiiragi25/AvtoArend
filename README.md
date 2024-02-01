@@ -11,7 +11,4 @@
 ### Используемые библиотеки
  - swapper.js
  - aos.js
-
-    
-   
-  
+![1](https://github.com/Hiiragi25/AvtoArend/assets/146516131/d3459357-e7e6-4668-806b-4dd43656d8b6)
